@@ -1,4 +1,4 @@
-import { advisoryTips } from "@/data/advisory";
+import { advisoryTips } from "../../data/advisory";
 
 export default function AdvisoryPage() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { addActivity } from "@/lib/db";
+import { addActivity } from "../../lib/db";
 import { useRouter } from "next/navigation";
 
 export default function AddPage() {
