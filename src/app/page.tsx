@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getActivities } from "../../lib/db";
+import { getActivities } from "../lib/db";
 
 export default function Home() {
   const [activities, setActivities] = useState<any[]>([]);
